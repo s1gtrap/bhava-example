@@ -1,0 +1,10 @@
+[package]
+name = "bhava-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bhava = { path = "../bhava" }
+log = "0.4"
+wasm-logger = "0.2"
+yew = "0.19"

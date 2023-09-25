@@ -1,0 +1,31 @@
+div {
+    font-family: monospace;
+}
+
+.bg-red {
+    background: #f00;
+}
+
+.bg-green {
+    background: #0f0;
+}
+
+.bg-blue {
+    background: #00f;
+}
+
+.bg-red.bg-green {
+    background: #ff0;
+}
+
+.bg-red.bg-blue {
+    background: #f0f;
+}
+
+.bg-green.bg-blue {
+    background: #0ff;
+}
+
+.bg-red.bg-green.bg-blue {
+    background: #fff;
+}
